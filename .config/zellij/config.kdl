@@ -4,6 +4,8 @@ keybinds {
         // uncomment this and adjust key if using copy_on_select=false
         // bind "Alt c" { Copy; }
         unbind "Alt f"
+        unbind "Ctrl q"
+        unbind "Ctrl s"
         bind "Alt F" {  ToggleFloatingPanes; }
     }
     locked {
