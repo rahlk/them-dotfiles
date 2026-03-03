@@ -1,0 +1,29 @@
+# Start Ghostty without an initial window (running in the background)
+initial-window = false
+
+# Font settings
+font-family = SpaceMono Nerd Font Mono
+font-size = 14
+
+
+# Quick terminal settings
+keybind = global:ctrl+backquote=toggle_quick_terminal
+
+
+# Quick terminal: 75% of screen (primary axis, secondary axis)
+# e.g. for position "top", this is 75% height and 75% width
+quick-terminal-size = 90%,100%
+
+# Hide Ghostty from the macOS Dock + app switcher (Cmd-Tab)
+macos-hidden = always
+
+# 95% opacity
+background-opacity = 0.85
+
+# Cursor
+cursor-style = bar
+
+
+# Background
+theme = light:Atom One Light,dark:catppuccin mocha
+background-blur = 15
